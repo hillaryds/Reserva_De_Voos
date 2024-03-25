@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #004080;
+  color: #fff;
+  padding: 1.5rem 5rem 2rem 5rem;
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+  font-family: "Montaga", sans-serif;
+  font-size: 1.8rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 24px;
+}
+
+nav ul li a {
+  padding-block: 10px;
+}
+
+.buttons {
+  display: flex;
+  margin-left: 24px;
+  gap: 24px;
+}
+
+.buttons div button {
+  display: flex;
+  gap: 8px;
+  padding-block: 10px;
+}
+
+.buttons .language button {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,14 @@
+main .render-flight {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+main .render-flight button {
+  color: #000;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+}
+

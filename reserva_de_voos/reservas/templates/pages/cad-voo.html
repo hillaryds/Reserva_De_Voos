@@ -1,0 +1,159 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastrar Voo</title>
+    <link rel="stylesheet" href="{% static 'styles/import.css' %}" />
+    <link rel="stylesheet" href="{% static 'styles/cad-voo css/main.css' %}" />
+    <script
+      src="https://kit.fontawesome.com/d4680403db.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">AirQuest</div>
+
+      <nav>
+        <ul>
+          <li><a href="#">Cadastrar</a></li>
+          <li><a href="#">Gerenciar</a></li>
+          <li><a href="#">Ajuda</a></li>
+          <li><a href="#">Sobre</a></li>
+        </ul>
+      </nav>
+
+      <div class="buttons">
+        <div class="language">
+          <button><i class="fa-solid fa-earth-americas"></i> BR</button>
+        </div>
+
+        <div class="search">
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div class="login-account">
+          <button><i class="fa-solid fa-user"></i></button>
+        </div>
+
+        <div class="logout-account">
+          <button><i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="render-flight">
+        <a href="{% url 'cad_voo' %}">
+          <button>1 Cadastro</button>
+        </a>
+        <a href="{% url 'list_voo' %}">
+          <button>2 Lista de voos</button>
+        </a>
+      </section>
+
+      <section class="cad-voo-area">
+        <div class="container">
+          <h1>Novo voo</h1>
+
+          <form method = "POST">
+          {% csrf_token %}
+            <!-- <input type="number" name="cpf" id=""> -->
+            <div class="input-assentos">
+              <label for="input-assentos">ID *</label>
+              <input
+                type="text"
+                name="input-assentos"
+                placeholder="Ex.: 4002"
+                required
+              />
+            </div>
+            <div class="input-origem">
+              <label for="input-origem">Origem *</label>
+              <input
+                type="text"
+                name="input-origem"
+                placeholder="Ex.: São Paulo / SP"
+                required
+              />
+            </div>
+
+            <div class="input-destino">
+              <label for="input-destino">Destino *</label>
+              <input
+                type="text"
+                name="nome"
+                placeholder="Ex.: Rio de Janeiro / RJ"
+                required
+              />
+            </div>
+
+            <div class="input-data-voo">
+              <label for="data-voo">Data *</label>
+              <input type="date" name="data-voo" required />
+            </div>
+
+            <div class="input-saida">
+              <label for="voo-saida">Horário de saída *</label>
+              <input
+                type="time"
+                name="senha"
+                placeholder="Informe sua senha"
+                required
+              />
+            </div>
+
+            <div class="input-chegada">
+              <label for="voo-chegada">Horário de chegada *</label>
+              <input type="time" name="voo-chegada" required />
+            </div>
+
+            <div class="input-preco-economica">
+              <label for="preco-economica">Preço classe econômica *</label>
+              <input
+                type="text"
+                name="preco-economica"
+                placeholder="Ex.: R$ 999,99"
+                required
+              />
+            </div>
+
+            <div class="input-preco-executiva">
+              <label for="preco-executiva">Preço classe executiva</label>
+              <input
+                type="text"
+                name="preco-executiva"
+                placeholder="Ex.: R$ 999,99"
+              />
+            </div>
+           
+            <input type="submit" value="Cadastrar-se" class="blue-text100p" />
+            
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="nav-footer">
+        <ul>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Ajuda</a></li>
+          <li><a href="#">API</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Termos</a></li>
+          <li><a href="#">Política</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Hastags</a></li>
+        </ul>
+      </div>
+
+      <p>&copy; AirQuest from Tobias & Hillary</p>
+    </footer>
+  </body>
+</html>

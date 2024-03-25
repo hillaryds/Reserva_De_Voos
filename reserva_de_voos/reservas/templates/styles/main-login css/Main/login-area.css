@@ -1,0 +1,94 @@
+main h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 80px 0;
+  color: inherit;
+  font-weight: 400;
+}
+
+main .login-area {
+  display: flex;
+  justify-content: center;
+}
+
+main .login-area .container {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  background-color: #fff;
+  padding: 25px 50px;
+  border-radius: 25px;
+}
+
+main .login-area .container .login-side form .input-login,
+main .login-area .container .login-side form .input-password {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+main .login-area .container .login-side form .input-login input,
+main .login-area .container .login-side form .input-password input {
+  border: 1px solid #004080;
+  padding: 20px;
+  border-radius: 20px;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+main .login-area .container .login-side form .input-login label,
+main .login-area .container .login-side form .input-password label {
+  position: absolute;
+  left: 18px;
+  top: -8px;
+  background-color: #fff;
+  padding: 0 5px;
+}
+
+main .login-area .container .linha-ou {
+  width: 1px;
+  background-color: #004080;
+}
+
+main .login-area .container .create-account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 500px;
+}
+
+main .login-area .container .create-account h3 {
+  font-size: 1.7rem;
+  color: #363636;
+  font-weight: 500;
+  text-align: center;
+}
+
+main .login-area .container .create-account h6 {
+  font-size: 1.3rem;
+  color: #363636;
+  font-weight: 500;
+  text-align: center;
+}
+
+main .login-area .container .create-account a {
+  text-align: center;
+}
+
+main .ou {
+  text-align: center;
+  margin: 50px 0;
+  text-transform: uppercase;
+}
+
+main .button-login-adm {
+  display: flex;
+  justify-content: center;
+}
+
+main .button-login-adm a {
+  width: 400px;
+  text-align: center;
+}

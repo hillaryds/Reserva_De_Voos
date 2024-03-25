@@ -1,0 +1,147 @@
+main .img-hero img {
+  width: 100%;
+  border-radius: 0px 0px 50px 50px;
+  object-fit: cover;
+  height: 400px;
+}
+
+main .hero {
+  margin-top: -150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .hero .container {
+  width: 850px;
+  height: 450px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+main .hero .container .flight-options {
+  display: flex;
+}
+
+main .hero .container .flight-options button {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #575757;
+  font-size: 24px;
+  border-bottom: 1px solid #000;
+}
+
+main .hero .container .content-flight {
+  margin-top: 3rem;
+  padding: 0 3rem;
+}
+
+main .hero .container .content-flight .select-flight form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .hero .container .content-flight .select-flight form .select-flight-start,
+main .hero .container .content-flight .select-flight form .select-flight-end {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #575757;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+main
+  .hero
+  .container
+  .content-flight
+  .select-flight
+  form
+  .select-flight-start
+  span,
+main
+  .hero
+  .container
+  .content-flight
+  .select-flight
+  form
+  .select-flight-end
+  span {
+  font-size: 12px;
+}
+
+main
+  .hero
+  .container
+  .content-flight
+  .select-flight
+  form
+  .select-flight-start
+  div
+  i,
+main
+  .hero
+  .container
+  .content-flight
+  .select-flight
+  form
+  .select-flight-end
+  div
+  i {
+  font-size: 20px;
+}
+
+main
+  .hero
+  .container
+  .content-flight
+  .select-flight
+  form
+  .select-flight-start
+  div
+  select,
+main
+  .hero
+  .container
+  .content-flight
+  .select-flight
+  form
+  .select-flight-end
+  div
+  select {
+  margin-top: 8px;
+  width: 250px;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+main .hero .container .reload-flight {
+  margin-top: 75px;
+  height: 1px;
+  background-color: #004080;
+  position: relative;
+}
+
+main .hero .container .reload-flight button {
+  position: absolute;
+  left: 44%;
+  top: -20px;
+  background-color: #fff;
+  border: #004080;
+}
+
+main .hero .container .reload-flight button i {
+  border: #004080;
+  color: #004080;
+  font-size: 40px;
+}
+
+main .hero .container .completed-flight-list {
+  margin-top: 4rem;
+  text-align: center;
+}
