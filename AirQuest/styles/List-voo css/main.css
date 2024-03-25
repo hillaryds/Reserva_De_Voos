@@ -1,0 +1,176 @@
+main .render-flight {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+main .render-flight button {
+  color: #000;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+}
+
+main .filter-flight {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+main .filter-flight .container {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  background-color: #fff;
+  padding: 30px 15px;
+  border-radius: 20px;
+  align-items: center;
+}
+
+main .filter-flight .container .flight-classification {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+main .filter-flight .container select {
+  border: none;
+  width: 220px;
+  outline: none;
+  color: #000;
+}
+
+main .filter-flight .container .flight-classification button {
+  color: #000;
+  border-right: 1px solid #000;
+}
+
+main .search-flight {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+main .search-flight .container {
+  width: 880px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  border-radius: 20px;
+}
+main .search-flight .container input {
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+main .flight-info {
+  display: flex;
+  justify-content: center;
+  margin: 45px 0;
+}
+
+main .flight-info .container {
+  width: 1200px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+  border-radius: 20px;
+  justify-content: center;
+  gap: 45px;
+}
+
+/* main .flight-info .container div {
+    width: 375px;
+  } */
+main .flight-info .container .tempo,
+main .flight-info .container .preco-tabela {
+  width: 375px;
+}
+
+main .flight-info .container .tempo .header-tempo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+main .flight-info .container .tempo .header-tempo h2 {
+  font-size: 1.7rem;
+  margin-left: 14px;
+}
+
+main .flight-info .container .tempo .content-tempo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+main .flight-info .container .tempo .content-tempo .content-tempo-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.city-info {
+  text-align: center;
+}
+
+.qtd-conexao p {
+  text-decoration: underline;
+}
+
+main .flight-info .container .preco-tabela {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 8px;
+  border-top: #004080;
+}
+
+main .flight-info .container .preco-tabela .titulo-blue h2 {
+  color: #004080;
+  text-align: start;
+  font-size: 1.6rem;
+}
+
+main .flight-info .container .preco-tabela .titulo-red h2 {
+  color: #ff0000;
+  text-align: start;
+  font-size: 1.6rem;
+}
+
+main .flight-info .container .preco-tabela .content-tabela {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+main .flight-info .container .preco-tabela .content-tabela h5 {
+  font-size: 0.8rem;
+}
+
+main .flight-info .container .preco-tabela .content-tabela h3 {
+  font-size: 2rem;
+  color: #000;
+}
+
+main .flight-info .container .preco-tabela .content-tabela h6 {
+  font-size: 0.9rem;
+  color: #fcb732;
+}
+
+main .linha-ou {
+  width: 4px;
+  height: 100%;
+  background-color: #0040800f;
+}

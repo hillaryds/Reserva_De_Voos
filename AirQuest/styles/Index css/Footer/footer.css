@@ -1,0 +1,12 @@
+footer {
+  margin-top: 6rem;
+  text-align: center;
+  color: #8e8e8e;
+}
+
+footer .nav-footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 5px;
+}

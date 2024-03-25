@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="../styles/import.css" />
+    <link rel="stylesheet" href="../styles/pagamento css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/d4680403db.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">AirQuest</div>
+
+      <nav>
+        <ul>
+          <li><a href="#">Reservar</a></li>
+          <li><a href="#">Meus voos</a></li>
+          <li><a href="#">Ajuda</a></li>
+          <li><a href="#">Sobre</a></li>
+        </ul>
+      </nav>
+
+      <div class="buttons">
+        <div class="language">
+          <button><i class="fa-solid fa-earth-americas"></i> BR</button>
+        </div>
+
+        <div class="search">
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div class="login-account">
+          <button><i class="fa-solid fa-user"></i></button>
+        </div>
+
+        <div class="logout-account">
+          <button><i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="render-flight">
+        <button>1 VOOS</button>
+        <button>2 ASSENTOS</button>
+        <button>3 PAGAMENTO</button>
+      </section>
+
+      <section class="info-user">
+        <div class="container">
+          <form action="">
+            <div>
+              <label for="nome">Nome</label>
+              <input type="text" name="nome" placeholder="Informe seu nome" />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Informe seu email"
+              />
+            </div>
+            <div>
+              <label for="senha">Senha</label>
+              <input
+                type="password"
+                name="senha"
+                placeholder="Informe sua senha"
+              />
+            </div>
+            <div>
+              <label for="cpf">CPF</label>
+              <input
+                type="text"
+                name="cpf"
+                id="input-cpf"
+                placeholder="Informe seu CPF"
+              />
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="info-payment">
+        <div class="container">
+          <div>
+            <button>
+              <p>Pix</p>
+              <img src="../assets/pix.svg" alt="logomarca de pagamento" />
+            </button>
+          </div>
+          <div>
+            <button>
+              <p>Cartão de Crédito</p>
+              <img
+                src="../assets/logos_mastercard.svg"
+                alt="logomarca de pagamento"
+              />
+            </button>
+          </div>
+          <div>
+            <button>
+              <p>Cartão de Débito</p>
+              <img
+                src="../assets/logos_visaelectron.svg"
+                alt="logomarca de pagamento"
+              />
+            </button>
+          </div>
+          <div>
+            <button>
+              <p>Boleto Brancário</p>
+              <img
+                src="../assets/material-symbols_barcode.svg"
+                alt="logomarca de pagamento"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="button-submit">
+        <button class="blue-text100p">Confirmar</button>
+      </section>
+    </main>
+
+    <footer>
+      <div class="nav-footer">
+        <ul>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Ajuda</a></li>
+          <li><a href="#">API</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Termos</a></li>
+          <li><a href="#">Política</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Hastags</a></li>
+        </ul>
+      </div>
+
+      <p>&copy; AirQuest from Tobias & Hillary</p>
+    </footer>
+  </body>
+  <script src="../script/cpf.js"></script>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ver Voo</title>
+    <link rel="stylesheet" href="../styles/import.css" />
+    <link rel="stylesheet" href="../styles/Settings-voos css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/d4680403db.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">AirQuest</div>
+
+      <nav>
+        <ul>
+          <li><a href="#">Reservar</a></li>
+          <li><a href="#">Meus voos</a></li>
+          <li><a href="#">Ajuda</a></li>
+          <li><a href="#">Sobre</a></li>
+        </ul>
+      </nav>
+
+      <div class="buttons">
+        <div class="language">
+          <button><i class="fa-solid fa-earth-americas"></i> BR</button>
+        </div>
+
+        <div class="search">
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div class="login-account">
+          <button><i class="fa-solid fa-user"></i></button>
+        </div>
+
+        <div class="logout-account">
+          <button><i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="config-voo">
+        <div class="container">
+          <div class="titulo">
+            <button>
+              <i class="fa-solid fa-gear"></i>
+            </button>
+
+            <h1>Configurações de voo</h1>
+
+            <button>
+              <i class="fa-solid fa-trash"></i>
+            </button>
+          </div>
+          <div class="content">
+            <form>
+              <div class="left-side">
+                <div class="origem">
+                  <label for="origem">Origem</label>
+                  <input
+                    type="text"
+                    name="origem"
+                    placeholder="Goiás - GO"
+                    disabled
+                  />
+                </div>
+                <div class="destino">
+                  <label for="destino">Destino</label>
+                  <input
+                    type="text"
+                    name="destino"
+                    placeholder="Porto Alegre - RS"
+                    disabled
+                  />
+                </div>
+                <div class="data">
+                  <label for="data">Data</label>
+                  <input type="text" name="data" value="22/03/2024" disabled />
+                </div>
+                <div class="saida">
+                  <label for="saida">Horário de saída</label>
+                  <input type="time" name="saida" value="02:00" disabled />
+                </div>
+                <div class="chegada">
+                  <label for="chegada">Horário de chegada</label>
+                  <input type="time" name="chegada" value="04:30" disabled />
+                </div>
+                <div class="assentos">
+                  <label for="assentos">Número de assentos</label>
+                  <input
+                    type="number"
+                    name="assentos"
+                    placeholder="133"
+                    disabled
+                  />
+                </div>
+              </div>
+
+              <div class="right-side">
+                <div class="preco-economica">
+                  <label for="preco-economica">Preço classe econômica</label>
+                  <input
+                    type="number"
+                    name="assentos"
+                    placeholder="850,69"
+                    disabled
+                  />
+                </div>
+                <div class="classe-executiva">
+                  <label for="classe-executiva">Classe executiva</label>
+                  <select name="classe-executiva" disabled>
+                    <option value="sim">Sim</option>
+                  </select>
+                </div>
+                <div class="preco-executiva">
+                  <label for="preco-execiutiva">Preço classe executiva</label>
+                  <input
+                    type="number"
+                    name="assentos"
+                    placeholder="1020,50"
+                    disabled
+                  />
+                </div>
+                <div class="conexao">
+                  <label for="conexao">Conexão / Escala</label>
+                  <input
+                    type="text"
+                    name="assentos"
+                    placeholder="São Paulo - SP"
+                    disabled
+                  />
+                </div>
+              </div>
+            </form>
+            <div class="button-submit">
+              <button class="cancelar white-text80">Voltar</button>
+              <button class="salvar blue-text80">Cancelar Voo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

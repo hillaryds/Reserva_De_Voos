@@ -1,0 +1,83 @@
+main .render-flight {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+main .render-flight button {
+  color: #000;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+}
+
+main .info-user {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+main .info-user .container form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #d9d9d9;
+  border-radius: 35px;
+  padding: 30px 100px;
+}
+
+main .info-user .container div {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  gap: 5px;
+  padding: 9px 20px;
+  border-radius: 15px;
+  border: 1px solid #004080;
+}
+
+main .info-user .container div label {
+  color: #004080;
+  font-size: 0.9rem;
+}
+
+main .info-user .container div input {
+  border: none;
+  outline: none;
+  width: 250px;
+}
+
+main .info-payment {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+main .info-payment .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #d9d9d9;
+  border-radius: 35px;
+  padding: 30px 100px;
+}
+
+main .info-payment .container button {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 15px;
+  border: 1px solid #004080;
+}
+
+main .button-submit {
+  margin-top: 30px;
+  text-align: center;
+}
+
+main .button-submit button {
+    width: 220px;
+}

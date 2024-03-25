@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Page 02</title>
+    <link rel="stylesheet" href="../styles/import.css" />
+    <link rel="stylesheet" href="../styles/List-voo css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/d4680403db.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">AirQuest</div>
+
+      <nav>
+        <ul>
+          <li><a href="#">Reservar</a></li>
+          <li><a href="#">Meus voos</a></li>
+          <li><a href="#">Ajuda</a></li>
+          <li><a href="#">Sobre</a></li>
+        </ul>
+      </nav>
+
+      <div class="buttons">
+        <div class="language">
+          <button><i class="fa-solid fa-earth-americas"></i> BR</button>
+        </div>
+
+        <div class="search">
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div class="login-account">
+          <button><i class="fa-solid fa-user"></i></button>
+        </div>
+
+        <div class="logout-account">
+          <button><i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="render-flight">
+        <button>1 VOOS</button>
+        <button>2 ASSENTOS</button>
+        <button>3 PAGAMENTO</button>
+      </section>
+
+      <section class="filter-flight">
+        <div class="container box-shadow">
+          <div>
+            <label for="mostrar-voo">Filtrar:</label>
+            <select name="mostrar-voo">
+              <option value="todos">Mostrar todos os voos</option>
+              <option value="maior-preco">Mostrar por maior preço</option>
+              <option value="menor-preco">Mostrar por menor preço</option>
+              <option value="destaque">Mostrar os voos em destaque</option>
+            </select>
+          </div>
+
+          <div class="flight-classification">
+            <p>Classificar por:</p>
+            <button>Preço</button>
+            <button>Duração</button>
+            <button>Hora de partida</button>
+            <button>Hora de chegada</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="search-flight">
+        <div class="container box-shadow">
+          <label for="input-search-flight">Pesquisar:</label>
+          <input
+            type="text"
+            name="input-search-flight"
+            placeholder="Ex: local de partida, local de destino ou preço"
+          />
+        </div>
+      </section>
+
+      <section class="flight-info">
+        <div class="container box-shadow">
+          <div class="tempo">
+            <div class="header-tempo">
+              <h2>01</h2>
+            </div>
+            <div class="content-tempo">
+              <h6>3 horas e 30 minutos</h6>
+              <div class="content-tempo-info">
+                <div class="city-info">
+                  <p>RJ</p>
+                  <p>11h30</p>
+                </div>
+                <div>
+                  <img
+                    src="../assets/airway.svg"
+                    alt="imagem de caminho do aviao"
+                  />
+                </div>
+                <div class="city-info">
+                  <p>PB</p>
+                  <p>15h</p>
+                </div>
+              </div>
+              <div class="qtd-conexao">
+                <p>1 conexão</p>
+              </div>
+            </div>
+          </div>
+          <div class="linha-ou"></div>
+          <div class="preco-tabela">
+            <div class="titulo-blue">
+              <h2>Econômica</h2>
+            </div>
+            <div class="content-tabela">
+              <h5>a partir de R$</h5>
+              <h3>850,69</h3>
+              <h6>menor preço</h6>
+            </div>
+            <div class="svg-button">
+              <button>
+                <img src="../assets/blue-arrow.svg" alt="seta" />
+              </button>
+            </div>
+          </div>
+          <div class="linha-ou"></div>
+          <div class="preco-tabela">
+            <div class="titulo-red">
+              <h2>Executiva</h2>
+            </div>
+            <div class="content-tabela">
+              <h5>a partir de R$</h5>
+              <h3>1020,50</h3>
+              <h6>menor preço</h6>
+            </div>
+            <div class="svg-button">
+              <button>
+                <img src="../assets/red-arrow.svg" alt="seta" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- segunda sessao -->
+
+      <section class="flight-info">
+        <div class="container box-shadow">
+          <div class="tempo">
+            <div class="header-tempo">
+              <h2>02</h2>
+            </div>
+            <div class="content-tempo">
+              <h6>3 horas e 30 minutos</h6>
+              <div class="content-tempo-info">
+                <div class="city-info">
+                  <p>RN</p>
+                  <p>11h30</p>
+                </div>
+                <div>
+                  <img
+                    src="../assets/airway.svg"
+                    alt="imagem de caminho do aviao"
+                  />
+                </div>
+                <div class="city-info">
+                  <p>SP</p>
+                  <p>15h</p>
+                </div>
+              </div>
+              <div class="qtd-conexao">
+                <p>1 conexão</p>
+              </div>
+            </div>
+          </div>
+          <div class="linha-ou"></div>
+          <div class="preco-tabela">
+            <div class="titulo-blue">
+              <h2>Econômica</h2>
+            </div>
+            <div class="content-tabela">
+              <h5>a partir de R$</h5>
+              <h3>1050,00</h3>
+              <h6>menor preço</h6>
+            </div>
+            <div class="svg-button">
+              <button>
+                <img src="../assets/blue-arrow.svg" alt="seta" />
+              </button>
+            </div>
+          </div>
+          <div class="linha-ou"></div>
+          <div class="preco-tabela">
+            <div class="titulo-red">
+              <h2>Executiva</h2>
+            </div>
+            <div class="content-tabela">
+              <h5>a partir de R$</h5>
+              <h3>1120,50</h3>
+              <h6>menor preço</h6>
+            </div>
+            <div class="svg-button">
+              <button>
+                <img src="../assets/red-arrow.svg" alt="seta" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="nav-footer">
+        <ul>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Ajuda</a></li>
+          <li><a href="#">API</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Termos</a></li>
+          <li><a href="#">Política</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Hastags</a></li>
+        </ul>
+      </div>
+
+      <p>&copy; AirQuest from Tobias & Hillary</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+main .text {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+main .text h2 {
+    width: 800px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 500;
+}

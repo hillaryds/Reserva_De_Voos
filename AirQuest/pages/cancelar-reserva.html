@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Adm</title>
+    <link rel="stylesheet" href="../styles/import.css" />
+    <link rel="stylesheet" href="../styles/cancelar-reserva css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/d4680403db.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+  <header>
+      <div class="logo">AirQuest</div>
+
+      <nav>
+          <ul>
+              <li><a href="#">Reservar</a></li>
+              <li><a href="#">Gerenciar</a></li>
+              <li><a href="#">Ajuda</a></li>
+              <li><a href="#">Sobre</a></li>
+          </ul>
+      </nav>
+
+      <div class="buttons">
+          <div class="language">
+              <button><i class="fa-solid fa-earth-americas"></i> BR</button>
+          </div>
+
+          <div class="search">
+              <button>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+          </div>
+
+          <div class="login-account">
+              <button><i class="fa-solid fa-user"></i> Fazer login</button>
+          </div>
+      </div>
+  </header>
+
+  <main>
+      <section class="cad-user">
+          <div class="container">
+              <h1>Cancelar Reserva</h1>
+
+              <form>
+                  <div class="input-cpf">
+                      <label for="input-cpf">CPF</label>
+                      <input
+                          type="text"
+                          name="input-cpf"
+                          id="input-cpf"
+                          autocomplete="off"
+                          maxlength="14"
+                          placeholder="Informe seu CPF"
+                          required
+                      />
+                  </div>
+
+                  <div class="input-nome">
+                      <label for="nome">Nome</label>
+                      <input
+                          type="text"
+                          name="nome"
+                          placeholder="Informe seu nome completo"
+                          required
+                      />
+                  </div>
+
+                  <div class="input-email">
+                      <label for="email">Email</label>
+                      <input
+                          type="email"
+                          name="email"
+                          placeholder="Informe seu email"
+                          required
+                      />
+                  </div>
+
+                  <div class="input-senha">
+                      <label for="senha">Senha</label>
+                      <input
+                          type="password"
+                          name="senha"
+                          placeholder="Informe sua senha"
+                          required
+                      />
+                  </div>
+
+                  <input type="submit" value="Cancelar" class="blue-text100p" />
+              </form>
+          </div>
+      </section>
+  </main>
+
+  <footer>
+      <div class="nav-footer">
+          <ul>
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Ajuda</a></li>
+              <li><a href="#">API</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Termos</a></li>
+              <li><a href="#">Política</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Hastags</a></li>
+          </ul>
+      </div>
+
+      <p>&copy; AirQuest from Tobias & Hillary</p>
+  </footer>
+</body>
+<script src="../script/cpf.js"></script>
+</html>

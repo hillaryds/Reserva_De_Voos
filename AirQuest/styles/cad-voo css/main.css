@@ -1,0 +1,101 @@
+main .render-flight {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+main .render-flight button {
+  color: #000;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+}
+
+main .cad-voo-area {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .cad-voo-area .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .cad-voo-area .container h1 {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 500;
+  background-color: #004080;
+  padding: 5px 65px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+main form {
+  width: 500px;
+  background-color: #fff;
+  padding: 50px 80px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 25px;
+}
+
+main .cad-voo-area .container form .input-id,
+main .cad-voo-area .container form .input-origem,
+main .cad-voo-area .container form .input-destino,
+main .cad-voo-area .container form .input-data-voo,
+main .cad-voo-area .container form .input-saida,
+main .cad-voo-area .container form .input-chegada,
+main .cad-voo-area .container form .input-assentos,
+main .cad-voo-area .container form .input-preco-economica,
+main .cad-voo-area .container form .input-classe-executiva,
+main .cad-voo-area .container form .input-preco-executiva,
+main .cad-voo-area .container form .input-conexao,
+main .cad-voo-area .container form .input-aeroporto-cadastro {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+main .cad-voo-area .container form .input-id input,
+main .cad-voo-area .container form .input-origem input,
+main .cad-voo-area .container form .input-destino input,
+main .cad-voo-area .container form .input-data-voo input,
+main .cad-voo-area .container form .input-saida input,
+main .cad-voo-area .container form .input-chegada input,
+main .cad-voo-area .container form .input-assentos input,
+main .cad-voo-area .container form .input-preco-economica input,
+main .cad-voo-area .container form .input-classe-executiva select,
+main .cad-voo-area .container form .input-preco-executiva input,
+main .cad-voo-area .container form .input-conexao input {
+  border: 1px solid #004080;
+  padding: 20px;
+  border-radius: 20px;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+main .cad-voo-area .container form .input-id label,
+main .cad-voo-area .container form .input-origem label,
+main .cad-voo-area .container form .input-destino label,
+main .cad-voo-area .container form .input-data-voo label,
+main .cad-voo-area .container form .input-saida label,
+main .cad-voo-area .container form .input-chegada label,
+main .cad-voo-area .container form .input-assentos label,
+main .cad-voo-area .container form .input-preco-economica label,
+main .cad-voo-area .container form .input-classe-executiva span,
+main .cad-voo-area .container form .input-preco-executiva label,
+main .cad-voo-area .container form .input-conexao label {
+  position: absolute;
+  left: 18px;
+  top: -8px;
+  background-color: #fff;
+  padding: 0 5px;
+}
+
+main .cad-voo-area .container form .input-aeroporto-cadastro input {
+  width: 100%;
+}

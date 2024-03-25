@@ -1,0 +1,67 @@
+main .cad-user {
+    display: flex;
+    justify-content: center;
+  }
+  
+  main .cad-user .container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  main .cad-user .container h1 {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 500;
+    background-color: #004080;
+    padding: 5px 65px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  main .cad-user .container form {
+    background-color: #fff;
+    padding: 50px 80px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 25px;
+    width: 500px;
+  }
+  
+  main .cad-user .container form .input-cpf,
+  main .cad-user .container form .input-nome,
+  main .cad-user .container form .input-email,
+  main .cad-user .container form .input-senha,
+  main .cad-user .container form .input-data-nascimento,
+  main .cad-user .container form .input-telefone {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  main .cad-user .container form .input-cpf input,
+  main .cad-user .container form .input-nome input,
+  main .cad-user .container form .input-email input,
+  main .cad-user .container form .input-senha input,
+  main .cad-user .container form .input-data-nascimento input,
+  main .cad-user .container form .input-telefone input {
+    border: 1px solid #004080;
+    padding: 20px;
+    border-radius: 20px;
+    outline: none;
+    margin-bottom: 5px;
+  }
+  
+  main .cad-user .container form .input-cpf label,
+  main .cad-user .container form .input-nome label,
+  main .cad-user .container form .input-email label,
+  main .cad-user .container form .input-senha label,
+  main .cad-user .container form .input-data-nascimento label,
+  main .cad-user .container form .input-telefone label {
+    position: absolute;
+    left: 18px;
+    top: -8px;
+    background-color: #fff;
+    padding: 0 5px;
+  }
+  

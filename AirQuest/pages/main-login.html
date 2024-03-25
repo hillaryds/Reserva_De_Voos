@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login AirQuest</title>
+    <link rel="stylesheet" href="../styles/import.css" />
+    <link rel="stylesheet" href="../styles/main-login css/import.css" />
+    <script src="https://kit.fontawesome.com/d4680403db.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <div class="logo">AirQuest</div>
+
+    <nav>
+        <ul>
+            <li><a href="#">Reservar</a></li>
+            <li><a href="#">Gerenciar</a></li>
+            <li><a href="#">Ajuda</a></li>
+            <li><a href="#">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <div class="buttons">
+        <div class="language">
+            <button><i class="fa-solid fa-earth-americas"></i> BR</button>
+        </div>
+
+        <div class="search">
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+
+        <div class="login-account">
+            <button><i class="fa-solid fa-user"></i> Fazer login</button>
+        </div>
+    </div>
+</header>
+
+<main>
+    <h1>Fazer Login na AirQuest</h1>
+
+    <section class="login-area">
+        <div class="container">
+            <div class="login-side">
+                <form method="POST" action="{% url 'main_login' %}">
+                    <div class="input-login">
+                        <label for="email">Login</label>
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="Informe seu email"
+                        />
+                        <a href="#" class="blue-link">Esqueceu seu email?</a>
+                    </div>
+                    <div class="input-password">
+                        <label for="password">Senha</label>
+                        <input
+                            type="password"
+                            name="password"
+                            placeholder="Informe sua senha"
+                        />
+                        <a href="#" class="blue-link">Esqueceu sua senha?</a>
+                    </div>
+
+                    <input type="checkbox" name="keep-password" />
+                    <label for="keep-password">Lembrar de mim nesse computador?</label>
+                    <input type="submit" class="blue-text100p" value="Fazer login" />
+                </form>
+            </div>
+
+            <div class="linha-ou"></div>
+
+            <div class="create-account">
+                <h3>Não possui um cadastro na AirQuest?</h3>
+
+                <h6>Cadastre-se já para não perder as nossas ofertas especiais</h6>
+
+                <a href="cad-user.html" class="blue-border-text100p">Criar conta</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="ou">Ou</section>
+
+    <section class="button-login-adm">
+        <a href="login-adm.html" class="blue-text100p">Login Administrador</a>
+    </section>
+</main>
+
+<footer>
+    <div class="nav-footer">
+        <ul>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Ajuda</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Termos</a></li>
+            <li><a href="#">Política</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Hastags</a></li>
+        </ul>
+    </div>
+
+    <p>&copy; AirQuest from Tobias & Hillary</p>
+</footer>
+</body>
+</html>

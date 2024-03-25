@@ -1,0 +1,53 @@
+main .adm-login-area {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+main .adm-login-area .container {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .adm-login-area .container h1 {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 500;
+  background-color: #004080;
+  padding: 5px 65px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+main form {
+  background-color: #fff;
+  padding: 50px 80px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 25px;
+}
+
+main .adm-login-area .container form .input-login,
+main .adm-login-area .container form .input-password {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+main .adm-login-area .container form .input-login input,
+main .adm-login-area .container form .input-password input {
+  border: 1px solid #004080;
+  padding: 20px;
+  border-radius: 20px;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+main .adm-login-area .container form .input-login label,
+main .adm-login-area .container form .input-password label {
+  position: absolute;
+  left: 18px;
+  top: -8px;
+  background-color: #fff;
+  padding: 0 5px;
+}

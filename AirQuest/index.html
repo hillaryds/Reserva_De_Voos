@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AirQuest</title>
+    <link rel="stylesheet" href="styles/import.css" />
+    <script
+      src="https://kit.fontawesome.com/d4680403db.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">AirQuest</div>
+
+      <nav>
+        <ul>
+          <li><a href="#">Reservar</a></li>
+          <li><a href="#">Gerenciar</a></li>
+          <li><a href="#">Ajuda</a></li>
+          <li><a href="#">Sobre</a></li>
+        </ul>
+      </nav>
+
+      <div class="buttons">
+        <div class="language">
+          <button><i class="fa-solid fa-earth-americas"></i> BR</button>
+        </div>
+
+        <div class="search">
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div class="login-account">
+            <a href="pages/main-login.html">
+                <button><i class="fa-solid fa-user"></i> Fazer login</button>
+            </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+        <section class="img-hero">
+          <img src="assets/img/header-background.png" alt="imagem de aeroporto" />
+        </section>
+      
+        <section class="hero">
+          <div class="container">
+            <div class="flight-options">
+              <button class="search-flight">
+                <i class="fa-solid fa-plane-arrival"></i> Buscar voos
+              </button>
+      
+              <button class="flight-status">
+                <i class="fa-solid fa-clock"></i> Status do voo
+              </button>
+            </div>
+      
+            <div class="content-flight">
+              <div class="select-flight">
+                <form>
+                  <div class="select-flight-start">
+                    <span>Aeroporto de partida</span>
+                    <div>
+                      <i class="fa-solid fa-map-location"></i>
+                      <select name="airport">
+                        <option value="null">Selecione</option>
+                        <option value="natal">Natal - RN</option>
+                        <option value="sao-paulo">São Paulo - SP</option>
+                        <option value="joao-pessoa">João Pessoa - PB</option>
+                        <option value="recife">Recife - PE</option>
+                      </select>
+                    </div>
+                  </div>
+      
+                  <div class="select-flight-end">
+                    <span>Aeroporto de chegada</span>
+                    <div>
+                      <i class="fa-solid fa-map-location"></i>
+                      <select name="airport">
+                        <option value="null">Selecione</option>
+                        <option value="natal">Natal - RN</option>
+                        <option value="sao-paulo">São Paulo - SP</option>
+                        <option value="joao-pessoa">João Pessoa - PB</option>
+                        <option value="recife">Recife - PE</option>
+                      </select>
+                    </div>
+                  </div>
+      
+                  <div>
+                    <button class="blue-text18">Buscar</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+      
+            <div class="reload-flight">
+              <button>
+                <i class="fa-solid fa-sync"></i>
+              </button>
+            </div>
+      
+            <div class="completed-flight-list">
+              <button class="blue-border-text">Ver lista completa de voos</button>
+            </div>
+          </div>
+        </section>
+      
+        <section class="text">
+          <h2 class="blue-text25">
+            Elevamos o conforto da aviação a um novo patamar
+          </h2>
+        </section>
+      
+        <section class="city">
+          <div class="container">
+            <div class="box-shadow">
+              <img src="assets/img/brazil.jpeg" alt="imagem do brasil" />
+              <h3>Brasil</h3>
+              <p>Rio de Janeiro</p>
+            </div>
+            <div class="box-shadow">
+              <img src="assets/img/usa.jpeg" alt="imagem dos estados unidos" />
+              <h3>Estados Unidos</h3>
+              <p>Nova York</p>
+            </div>
+            <div class="box-shadow">
+              <img src="assets/img/england.jpeg" alt="imagem da inglaterra" />
+              <h3>Inglaterra</h3>
+              <p>Londres</p>
+            </div>
+            <div class="box-shadow">
+              <img src="assets/img/dubai.jpeg" alt="imagem de dubai" />
+              <h3>Emirados Árabes</h3>
+              <p>Dubai</p>
+            </div>
+            <div class="box-shadow">
+              <img src="assets/img/france.jpeg" alt="imagem da frança" />
+              <h3>França</h3>
+              <p>Paris</p>
+            </div>
+            <div class="box-shadow">
+              <img src="assets/img/china.jpeg" alt="imagem da china" />
+              <h3>China</h3>
+              <p>Muralha da China</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+    <footer>
+      <div class="nav-footer">
+        <ul>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Ajuda</a></li>
+          <li><a href="#">API</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Termos</a></li>
+          <li><a href="#">Política</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Hastags</a></li>
+        </ul>
+      </div>
+
+      <p>&copy; AirQuest from Tobias & Hillary</p>
+    </footer>
+  </body>
+</html>
